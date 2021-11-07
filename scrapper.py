@@ -3,7 +3,7 @@ import lxml.html as html
 
 HOME_URL = 'https://www.larepublica.co/'
 
-XPATH_LINK_TO_ARTICLE= '//h2/a/@href'
+XPATH_LINK_TO_ARTICLE= '//text-fill/a/@href'
 XPATH_TITLE = '//div[@class="mb-auto"]/h2/span/text()'
 XPATH_SUMMARY = '//div[@class="lead"]/p/text()'
 XPATH_BODY = '//div[@class="html-content"]/p[not(@class)]/text()'
